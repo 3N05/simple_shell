@@ -24,7 +24,6 @@
 #define TOK_BUFSIZE 64
 extern char **environ;
 
-int main(int argc, char *argv[]);
 char **free_dp(char **line);
 int _strlen(char *s);
 int _strcmp(char *s1, char *s2);
