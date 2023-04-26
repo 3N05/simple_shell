@@ -36,7 +36,7 @@ return;
 else
 {
 if (check_path(env, line) == 0)
-_exec = _execev(line[0], line, NULL);
+_exec = execev(line[0], line, NULL);
 if (_exec < 0)
 {
 if (isatty_val == 1)
