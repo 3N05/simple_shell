@@ -1,7 +1,6 @@
 The repository contains files that simulate a basic UNIX shellwith respective commands.
 
 
-
 HOW TO USE SHELL:
 
 1. Fork this Repository
