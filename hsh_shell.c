@@ -26,7 +26,7 @@ int main(int argc __attribute__((unused)), char **av, char **env)
 		if (string != NULL)
 		{
 			_num_prompt++;
-			line = strtok(string);
+			line = _strtok(string);
 			_execev(line, av[0], _num_prompt, val_isatty, env);
 			free(string);
 			free(line);

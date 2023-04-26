@@ -61,7 +61,7 @@ int count_chr(char *str, char *delimits)
  * @env: environment var
  * Return: double pointer with each route
  */
-char **get_path(char *env)
+char **get_path(char **env)
 {
 	char *str = "PATH", *my_path, *aux, **paths;
 	unsigned int i = 0, j = 0, size;
