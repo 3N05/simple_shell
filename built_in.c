@@ -36,7 +36,7 @@ int is_buit(char **line, char **environ)
 			printf("Error changing directory to: %s\n", line[1]);
 			return (1);
 		}
-		return(1);
+		return (1);
 	}
 
 	if ((_strcmp(line[0], "env") == 0) && line[1] == NULL)
