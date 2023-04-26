@@ -13,7 +13,7 @@ char **token;
 
 for (; environ[location] != NULL ; location++)
 {
-if (environ[location][0] == 'P && environ[location][2] == 'T')
+if (environ[location][0] == 'P' && environ[location][2] == 'T')
 {
 token = &(environ[location]);
 }
