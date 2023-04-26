@@ -18,5 +18,6 @@ char **_path(char **environ)
 			token = &(environ[location]);
 		}
 	}
+
 	return (token);
 }
