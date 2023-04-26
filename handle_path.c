@@ -49,7 +49,7 @@ int count_chr(char *str, char *delimits)
 	if (str != NULL && delimits != NULL)
 	{
 		for (i = 0; delimits[i] != '\0'; i++)
-			for (j = 0; str[j] != '\0' j++)
+			for (j = 0; str[j] != '\0'; j++)
 				if (delimits[i] == str[j])
 					result++;
 	}

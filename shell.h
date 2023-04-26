@@ -31,7 +31,7 @@ void _exit_function(void);
 void prompt_shell(void);
 char *get_line(int isatty_val);
 char **_strtok(char *line_messages);
-void _exe(char **line, char *argv, int num, int isatty_val, char **env);
+void _execev(char **line, char *argv, int num, int isatty_val, char **env);
 char *_strstr(char *haystack, char *needle);
 int is_built(char **line, char **environ);
 int _equal(char *dest, char *src);

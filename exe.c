@@ -10,7 +10,7 @@
  * Return: nothing
  */
 
-void _exe(char **line, char *argv, int num, int isatty_val, char **env)
+void _execev(char **line, char *argv, int num, int isatty_val, char **env)
 {
 pid_t pid;
 int _exec = 0;
@@ -36,7 +36,7 @@ return;
 else
 {
 if (check_path(env, line) == 0)
-_exec = exe(line[0], line, NULL);
+_exec = _execev(line[0], line, NULL);
 if (_exec < 0)
 {
 if (isatty_val == 1)
