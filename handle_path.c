@@ -27,7 +27,7 @@ int check_path(char **env, char **argvs)
 			free_dp(paths);
 			return (0);
 		}
-		free (ruta);
+		free(ruta);
 	}
 
 	free_dp(paths);
@@ -82,7 +82,7 @@ char **get_path(char *env)
 				return (NULL);
 
 			my_path = strtok(aux, PATH_DELIMIT);
-			while(my_path != NULL)
+			while (my_path != NULL)
 			{
 				paths[j] = _strdup(my_path);
 
