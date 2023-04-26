@@ -8,14 +8,14 @@
 
 char **_path(char **environ)
 {
-	int locate = 0;
+	int location = 0;
 	char **token;
 
-	for (; environ[locate] != NULL ; locate++)
+	for (; environ[location] != NULL ; location++)
 	{
-		if (environ[locate][0] == 'p' && environ[locate][2] == 'T')
+		if (environ[location][0] == 'P && environ[location][2] == 'T')
 		{
-			token = &(environ[locate]);
+			token = &(environ[location]);
 		}
 	}
 	return (token);
