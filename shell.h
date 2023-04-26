@@ -25,8 +25,6 @@
 extern char **environ;
 
 char **free_dp(char **line);
-int _strlen(char *s);
-int _strcmp(char *s1, char *s2);
 void _exit_function(void);
 void prompt_shell(void);
 char *get_line(int isatty_val);
@@ -44,4 +42,6 @@ void _printenv(char **environ);
 int _putchar(char c);
 void _puts(char *str);
 char **_path(char **environ);
+int _strlen(char *s);
+int _strcmp(char *s1, char *s2);
 #endif
