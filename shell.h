@@ -34,7 +34,7 @@ char *get_line(int isatty_val);
 char **_strtok(char *line_messages);
 void _execev(char **line, char *argv, int num, int isatty_val, char **env);
 char *_strstr(char *haystack, char *needle);
-int is_built(char **line, char **environ);
+int is_buit(char **line, char **environ);
 int _equal(char *dest, char *src);
 char *str_concat(char *s1, char *s2);
 char *_strdup(char *str);

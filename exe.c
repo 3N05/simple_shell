@@ -18,7 +18,7 @@ int _exec = 0;
 if (line[0] == NULL)
 return;
 
-if (is_built(line, env) == 1)
+if (is_buit(line, env) == 1)
 return;
 
 pid = fork();
