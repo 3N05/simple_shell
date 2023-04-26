@@ -15,7 +15,7 @@ char **_path(char **environ)
 	{
 		if (environ[locate][0] == 'p' && environ[locate][2] == 'T')
 		{
-			token = &(environ[locae]);
+			token = &(environ[locate]);
 		}
 	}
 	return (token);
