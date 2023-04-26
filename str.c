@@ -18,6 +18,23 @@ int _strcmp(char *s1, char *s2)
 }
 
 /**
+ * _strlen - calc the length of a string
+ * @s: string
+ * Return: length of the string
+ */
+int _strlen(char *s)
+{
+	int len = 0;
+
+	while (*s)
+	{
+		len++;
+		s++;
+	}
+	return (len);
+}
+
+/**
  * _strdup - back a pointer to ana array
  * @str: pointer array
  * Return: an array dinamic
