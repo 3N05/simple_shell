@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * _exe - executes a program exe
+ * _execev - executes a program exe
  * *@line: receives from strtok the token
  * @argv: arguments in file
  * @num: variables
