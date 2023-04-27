@@ -16,7 +16,7 @@ char **_strtok(char *line_messages)
 		return (NULL);
 	}
 
-	array = malloc((_strlen(line_messages) + 1024) * sizeof(char *));;
+	array = malloc(_strlen(line_messages) + 1024);
 
 	chit = strtok(line_messages, delimiters);
 	array[i] = chit;
