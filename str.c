@@ -1,5 +1,5 @@
 #include "shell.h"
-
+#include "exe.c"
 /**
  * _strcmp - compares 2 strings
  * @s1: string
