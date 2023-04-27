@@ -23,8 +23,8 @@
 #define NEW_LINE write(STDOUT, "\n", 1)
 #define TOK_BUFSIZE 64
 extern char **environ;
-size_t strlen(const char *s);
 
+size_t strlen(const char *s);
 char **free_dp(char **line);
 int _strlen(char *s);
 int _strcmp(char *s1, char *s2);

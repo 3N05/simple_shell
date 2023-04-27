@@ -7,12 +7,15 @@
  */
 char **free_dp(char **line)
 {
-	int x;
+	int i;
 
-	for (x = 0; line[x]; x++)
+	if (line == NULL)
+		return (NULL);
+
+	for (i = 0; line[i]; i++)
 	{
-		free(line[x]);
-		line[x] = NULL;
+		free(line[i]);
+		line[i] = NULL;
 	}
 	free(line);
 	line = NULL;
