@@ -27,7 +27,7 @@ char **_strtok(char *line_messages)
 		chit = strtok(NULL, delimiters);
 		array[i] = chit;
 	}
-	
+	i++;
 	array[i] = NULL;
 	return (array);
 }
