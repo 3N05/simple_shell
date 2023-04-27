@@ -7,5 +7,5 @@
  */
 void _exit_function(void)
 {
-	kill(getpid(), SIGTERM);
+   exit(EXIT_SUCCESS);
 }

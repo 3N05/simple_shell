@@ -22,7 +22,9 @@
 #define CLEAR_SCREEN write(STDOUT, "\033[H\033[J", 6)
 #define NEW_LINE write(STDOUT, "\n", 1)
 #define TOK_BUFSIZE 64
+
 extern char **environ;
+
 size_t strlen(const char *s);
 
 char **free_dp(char **line);

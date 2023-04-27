@@ -24,7 +24,7 @@ return;
 pid = fork();
 if (pid < 0)
 {
-printf("Error during fork\n");
+perror("Error during fork\n");
 free_dp(line);
 exit(EXIT_FAILURE);
 }
@@ -36,7 +36,7 @@ return;
 else
 {
 if (check_path(env, line) == 0)
-_exec = execve(line[0], line, NULL);
+_exec = execve(line[0], line, env);
 if (_exec < 0)
 {
 if (isatty_val == 1)
